@@ -64,9 +64,9 @@ I. El Estado asume y promueve como principios ético -morales de la sociedad plu
 
 II. El Estado se sustenta en los valores de unidad, igualdad, inclusión, dignidad, libertad, solidaridad, reciprocidad, respeto, complementariedad, armonía, transparencia, equilibri o, igualdad de oportunidades, equidad social y de género en la participación, bienestar común, responsabilidad, justicia social, distribución y redistribución de los productos y bienes sociales, para vivir bien.
 
-###### Artículo 9. Son fines y funciones esenciales  del Estado, además de los que establece la
+###### Artículo 9
 
-Constitución y la ley:
+Son fines y funciones esenciales del Estado, además de los que establece la Constitución y la ley:
 
 1. Constituir una sociedad justa y armoniosa, cimentada en la descolonización, sin discriminación ni explotación, con plena justicia social, para consolidar las identidades plurinacionales.
 
@@ -934,9 +934,9 @@ III. Los atentados contra la seguridad personal hacen responsables a sus autores
 
 Los delitos de genocidio, de lesa humanidad, de traición a la patria, crímenes de guerra son imprescriptibles.
 
-###### Artículo 112. Los delitos cometidos por servidores públicos que atenten contra el patrimon io del
+###### Artículo 112
 
-Estado y causen grave daño económico, son imprescriptibles y no admiten régimen de inmunidad.
+Los delitos cometidos por servidores públicos que atenten contra el patrimon io del Estado y causen grave daño económico, son imprescriptibles y no admiten régimen de inmunidad.
 
 ###### Artículo 113
 
@@ -1078,9 +1078,9 @@ IV. La decisión final que conceda la Acción de Protección de Privacidad será
 
 ##### SECCIÓN IV — ACCIÓN DE INCONSTITUCIONALIDAD
 
-###### Artículo 132. Toda persona individual o co lectiva afectada por una norma jurídica contraria a la
+###### Artículo 132
 
-Constitución tendrá derecho a presentar la Acción de Inconstitucionalidad, de acuerdo con los procedimientos establecidos por la ley.
+Toda persona individual o co lectiva afectada por una norma jurídica contraria a la Constitución tendrá derecho a presentar la Acción de Inconstitucionalidad, de acuerdo con los procedimientos establecidos por la ley.
 
 ###### Artículo 133
 
@@ -1260,9 +1260,9 @@ IV. La Asamblea Legislativa Plurinacional podrá sesionar en un lugar distinto a
 
 Durante los recesos, funcionará la Comisión de Asamblea, en la forma y con las atribuciones que determine el Reglamento de la Cámara de Diputados. De manera extraordinaria, por asuntos de urgencia, la Asamblea podrá ser convocada por su Presidenta o President e, o por la Presidenta o el Presidente del Estado. Sólo se ocupará de los asuntos consignados en la convocatoria.
 
-###### Artículo 155. La Asamblea Legislativa Plurinacional inaugurará sus sesiones el 6 de Agosto en la
+###### Artículo 155
 
-Capital de Bolivia, salvo convocatoria expresa de su Presidenta o Presidente.
+La Asamblea Legislativa Plurinacional inaugurará sus sesiones el 6 de Agosto en la Capital de Bolivia, salvo convocatoria expresa de su Presidenta o Presidente.
 
 ###### Artículo 156
 
@@ -1472,9 +1472,9 @@ II. En caso de que ninguna de las candidaturas cumpla estas condiciones se reali
 
 Para acceder a la candidatura a la Presidencia o a la Vicepresidencia del Estado se requiere cumplir con las condiciones generales de acceso al servicio público, contar con treinta años de edad cumplidos al día de la elección, y haber residido de forma permanente en el pa ís al menos cinco años inmediatamente anteriores a la elección.
 
-###### Artículo 168. El periodo de mandato de la Presidenta o del Presidente y de la Vicepresidenta o del
+###### Artículo 168
 
-Vicepresidente del Estado es de cinco años, y pueden ser reelectas o reelectos por una sola vez de manera continua.
+El periodo de mandato de la Presidenta o del Presidente y de la Vicepresidenta o del Vicepresidente del Estado es de cinco años, y pueden ser reelectas o reelectos por una sola vez de manera continua.
 
 ###### Artículo 169
 
@@ -1972,9 +1972,9 @@ La Defensora o el Defensor del Pueblo se designará por al menos dos tercios de 
 
 Para ser designada Defensora o ser designado Defensor del Pueblo se requerirá cumplir con las condiciones generales de acceso al servicio público, contar con treinta años de edad cumplidos al momento de su designación y contar con probada integridad persona l y ética, determinada a través de la observación pública.
 
-###### Artículo 222. Son atribuciones de la Defensoría del Pueblo, además de las que establecen la
+###### Artículo 222
 
-Constitución y la ley:
+Son atribuciones de la Defensoría del Pueblo, además de las que establecen la Constitución y la ley:
 
 1. Interponer las acciones de Inconstitucionalidad, de Libertad, de Amparo Const itucional, de Protección de Privacidad, Popular, de Cumplimiento y el recurso directo de nulidad, sin necesidad de mandato.
 
@@ -1994,9 +1994,9 @@ Constitución y la ley:
 
 9. Elaborar los reglamentos necesarios para el ejercicio de sus funciones.
 
-###### Artículo 223. Las autoridades y los servidores públicos tienen la obligación de proporcionar a la
+###### Artículo 223
 
-Defensoría del Pueblo la información que solicite en relación con el ejercicio de sus funciones. En caso de no ser debidamente atendida en su solicitud, la Defensoría interpondrá las acciones correspondientes contra la autoridad, que podrá ser procesada y destituida si se demuestra el incumplimiento.
+Las autoridades y los servidores públicos tienen la obligación de proporcionar a la Defensoría del Pueblo la información que solicite en relación con el ejercicio de sus funciones. En caso de no ser debidamente atendida en su solicitud, la Defensoría interpondrá las acciones correspondientes contra la autoridad, que podrá ser procesada y destituida si se demuestra el incumplimiento.
 
 ###### Artículo 224. Cada año, la Defensora o el Defensor del Pueblo informará a la Asamblea
 
@@ -2250,9 +2250,9 @@ I. La Policía Boliviana, como fuerza pública, tiene la misión específica de 
 
 II. Como institución, no delibera ni participa en acción política partidaria, pero individualmente sus miembros gozan y ejercen sus derechos ciudadanos, de acuerdo con la ley.
 
-###### Artículo 252. Las Fuerzas de la Policía Boliviana dependen de la Presidenta o del Presidente del
+###### Artículo 252
 
-Estado por intermedio de la Ministra o Ministro de Gobierno.
+Las Fuerzas de la Policía Boliviana dependen de la Presidenta o del Presidente del Estado por intermedio de la Ministra o Ministro de Gobierno.
 
 ###### Artículo 253
 
@@ -3826,9 +3826,9 @@ Son objetivos de la política de desarrollo rural integral del Estado, en coordi
 
 El Estado determinará estímulos en b eneficio de los pequeños y medianos productores con el objetivo de compensar las desventajas del intercambio inequitativo entre los productos agrícolas y pecuarios con el resto de la economía.
 
-###### Artículo 409. La producción, importación y comercialización de  transgénicos será regulada por
+###### Artículo 409
 
-Ley.
+La producción, importación y comercialización de transgénicos será regulada por Ley.
 
 ## QUINTA PARTE — JERARQUÍA NORMATIVA Y REFORMA DE LA CONSTITUCIÓN
 
