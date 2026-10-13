@@ -278,7 +278,7 @@ def lines_to_md(pages_lines, article_word="Artículo"):
             if num.isdigit():
                 last_num[0] = int(num)
             nxt_line = lines[i + 1].strip() if i + 1 < n else ""
-            if rest and len(rest) < 90 and not rest.endswith((".", ":", ";", ",")) \
+            if rest and len(rest) < 90 and not rest.endswith((".", ":", ";", ",")) and not re.search(r"[.:;]\s+\S", rest) \
                     and nxt_line[:1].isupper() and not RE_ART.match(nxt_line) and not RE_DIV.match(nxt_line):
                 b.article(f"{article_word} {num}. {rest}", "")
             else:
@@ -334,3 +334,51 @@ def render(front, title, body_md, notes=None, preamble=None):
                 parts.append(f"({k}) {notes[k]}")
             parts.append("")
     return "\n".join(parts).rstrip() + "\n"
+
+
+def blocks_to_md(blocks, article_word="Artículo"):
+    """Like lines_to_md, but for already-delimited paragraphs (e.g. from HTML): each block is
+    one paragraph; headings/articles are detected at block start; blocks are never joined."""
+    b = Builder()
+    n = len(blocks)
+    i = 0
+    while i < n:
+        s = re.sub(r"\s+", " ", blocks[i]).strip()
+        if not s:
+            i += 1
+            continue
+        m = RE_PARTE.match(s)
+        if m and is_caps(s) and len(s) < 200:
+            b.heading("PARTE", s)
+            i += 1
+            continue
+        m = RE_DIV.match(s)
+        if m and is_caps(m.group(1)) and len(s) < 250 and (is_caps(s) or not m.group(3).strip() or len(s) < 120):
+            kind = re.sub(r"[ÍÓ]", lambda c: {"Í": "I", "Ó": "O"}[c.group(0)], m.group(1).upper())
+            title = s
+            j = i + 1
+            if not m.group(3).strip() and j < n:
+                nl = re.sub(r"\s+", " ", blocks[j]).strip()
+                if nl and len(nl) < 200 and not RE_DIV.match(nl) and not RE_ART.match(nl) and not RE_PARTE.match(nl) \
+                        and (is_caps(nl) or not nl.endswith((".", ";", ":"))):
+                    title = s + " — " + nl
+                    j += 1
+            b.heading(kind, title)
+            i = j
+            continue
+        m = RE_ART.match(s)
+        if m:
+            num = re.sub(r"\s+", " ", m.group(2)).strip()
+            rest = m.group(3).strip()
+            b.article(f"{article_word} {num}", rest)
+            b.flush()
+            i += 1
+            continue
+        if RE_DISP.match(s) and is_caps(s) and len(s) < 150:
+            b.heading("DISP", s)
+            i += 1
+            continue
+        b.line(s)
+        b.flush()
+        i += 1
+    return "\n\n".join(b.finish())
