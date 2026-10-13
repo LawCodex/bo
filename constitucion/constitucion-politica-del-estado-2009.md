@@ -14,7 +14,9 @@ retrieved: '2026-10-13'
 
 > Texto publicado por la Gaceta Oficial de Bolivia (promulgada el 7 de febrero de 2009).
 
-EVO MORALES AYMA PRESIDENTE CONSTITUCIONAL DE LA REPÚBLICA Por cuanto, el Pueblo Boliviano a través del Referéndum de fecha 25 de enero de 2009, ha aprobado el proyecto de Constitución Polí tica del Estado, presentado al H. Congreso Nacional por la Asamblea Constituyente el 15 de diciembre de 2007 con los ajustes establecidos por el H. Congreso Nacional. Por la voluntad del soberano se proclama la siguiente: CONSTITUCION POLITICA DEL ESTADO
+EVO MORALES AYMA PRESIDENTE CONSTITUCIONAL DE LA REPÚBLICA Por cuanto, el Pueblo Boliviano a través del Referéndum de fecha 25 de enero de 2009, ha aprobado el proyecto de Constitución Polí tica del Estado, presentado al H. Congreso Nacional por la Asamblea Constituyente el 15 de diciembre de 2007 con los ajustes establecidos por el H. Congreso Nacional. Por la voluntad del soberano se proclama la siguiente:
+
+CONSTITUCION POLITICA DEL ESTADO
 
 ## PRIMERA PARTE — BASES FUNDAMENTALES DEL ESTADO DERECHOS, DEBERES Y GARANTÍAS
 
@@ -3918,4 +3920,6 @@ Disposición abrogatoria. Queda abrogada la Constitución Política del Estado d
 
 Esta Constitución, aprobada en referendo por el pueblo boliviano entrará en vigencia el día de su publicación en la Gaceta Oficial.
 
-Remítase al Poder Ejecutivo, para fines constitucionales. Por tanto, la promulgo para qu e se tenga y cumpla como Ley fundamental del nuevo Estado Unitario Social de Derecho Plurinacional Comunitario, descentralizado y con autonomías. Ciudad de El Alto de La Paz, a los siete días del mes de febrero de dos mil nueve años. FDO. EVO MORALES AYMA PRESIDENTE CONSTITUCIONAL DE LA REPUBLICA
+Remítase al Poder Ejecutivo, para fines constitucionales.
+
+Por tanto, la promulgo para qu e se tenga y cumpla como Ley fundamental del nuevo Estado Unitario Social de Derecho Plurinacional Comunitario, descentralizado y con autonomías. Ciudad de El Alto de La Paz, a los siete días del mes de febrero de dos mil nueve años. FDO. EVO MORALES AYMA PRESIDENTE CONSTITUCIONAL DE LA REPUBLICA

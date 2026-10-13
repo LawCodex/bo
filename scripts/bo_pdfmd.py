@@ -217,6 +217,8 @@ class Builder:
 
 def lines_to_md(pages_lines, article_word="Artículo"):
     lines = [l for ls in pages_lines for l in ls]
+    lens = sorted(len(l.strip()) for l in lines if len(l.strip()) > 20)
+    width = lens[int(len(lens) * 0.8)] if lens else 80
     b = Builder()
     last_num = [None]
     i = 0
@@ -263,7 +265,7 @@ def lines_to_md(pages_lines, article_word="Artículo"):
                         j += 1
                 if names:
                     title = s + " — " + " ".join(names)
-            if is_caps(m.group(1)) and (is_caps(s) or not m.group(3).strip()):
+            if (is_caps(m.group(1)) and is_caps(s)) or (not m.group(3).strip() and m.group(1)[:1].isupper()):
                 b.heading(kind, re.sub(r"\s+", " ", title))
                 i = j
                 continue
@@ -308,7 +310,10 @@ def lines_to_md(pages_lines, article_word="Artículo"):
                 new_para = True
             elif raw.startswith(" ") and prev.endswith((".", ":", ";")):
                 new_para = True
-            elif prev.endswith((".", ":", ";", ".”", ".\"")) and s[:1].isupper() and len(prev) < 45:
+            elif prev.endswith((".", ":", ";", ".”", ".\"")) and s[:1].isupper() and len(prev) < max(45, 0.8 * width):
+                new_para = True
+            elif re.match(r"(Considerando|CONSIDERANDO|Vista|Visto|VISTA|VISTO|POR TANTO|Por tanto|HA DADO|DADA|Dada|Dado|DADO)\b", s) \
+                    and prev.endswith((".", ":", ";")):
                 new_para = True
             if new_para:
                 b.flush()
